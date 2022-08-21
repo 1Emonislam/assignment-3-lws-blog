@@ -28,8 +28,7 @@ const Search = () => {
           onChange={(e) => optimizedFn(e.target.value)}
           className="outline-none border-none bg-gray-50 h-full w-full mr-2"
           type="search"
-          name="search"
-          placeholder="Search"
+          placeholder="Searching Everything...ex: title, category , author"
         />
         <img className="inline h-6 cursor-pointer" src={searchImg} alt="Search" />
       </div>
