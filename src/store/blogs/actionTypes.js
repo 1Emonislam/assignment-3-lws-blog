@@ -1,0 +1,5 @@
+export const NAME_FILTER = 'articles/name_filter'
+export const TITLE_FILTER = 'articles/title_filter'
+export const CATEGORY_FILTER = 'articles/category_filter'
+export const SEARCH_FILTER = 'articles/search_filter'
+export const CLEAR_FILTER = 'articles/clear_filter'
