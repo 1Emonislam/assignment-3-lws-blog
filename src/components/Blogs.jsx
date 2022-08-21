@@ -1,7 +1,7 @@
 import React from 'react'
 import Blog from './Blog'
 import { useSelector, useDispatch } from 'react-redux'
-import { articlesClearFilter } from '../store/blogs/actions';
+import { articlesClearFilter } from '../store/blogs/actions'
 const Blogs = () => {
   const dispatch = useDispatch()
   const blogs = useSelector((state) => state.blogs.articles)

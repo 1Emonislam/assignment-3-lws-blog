@@ -28,7 +28,10 @@ const Blog = ({ blog }) => {
           </div>
         </div>
         <div className="mt-6 flex items-center">
-          <div className="flex-shrink-0">
+          <div
+            className="flex-shrink-0 cursor-pointer"
+            onClick={() => dispatch(articlesNameFilter(blog.author.name))}
+          >
             <img className="h-10 w-10 rounded-full" src={blog.author.img} alt="" />
           </div>
           <div className="ml-3">
